@@ -1,0 +1,43 @@
+/* Global */
+h2 {
+  font-size: 55px;
+}
+.btn {
+  background: #6c25fb;
+  text-transform: uppercase;
+  font-family:'Gotham Book', Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 32px;
+  padding: 25px 35px;
+}
+.btn:hover {
+  background: #934efb;
+}
+.purpleHighlight {
+  color: #6c25fb;
+}
+
+/* getStarted */
+#callToActionTop h2 {
+  margin-top: 150px;
+}
+
+/* aboutSwishlinks */
+.colbaltBlue {
+  background: #3354fb;
+  color: white;
+  margin-top: -100px;
+}
+#aboutSwishlinks{
+  padding-top: 170px;
+}
+#aboutSwishlinks h6 {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#aboutSwishlinks hr {
+  margin-top: 0px;
+}
