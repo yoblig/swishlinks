@@ -17,6 +17,15 @@ h2 {
 .purpleHighlight {
   color: #6c25fb;
 }
+.font-bold {
+  font-weight: bold;
+}
+.font-normal {
+  font-weight: normal;
+}
+.font-light {
+  font-weight: lighter;
+}
 
 /* getStarted */
 #callToActionTop h2 {
@@ -29,6 +38,9 @@ h2 {
   color: white;
   margin-top: -100px;
 }
+.width-150 {
+  width: 150px;
+}
 #aboutSwishlinks{
   padding-top: 170px;
 }
@@ -37,6 +49,12 @@ h2 {
   font-weight: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+#aboutSwishlinks h2 {
+  margin-bottom: 60px;
+}
+#aboutSwishlinks p {
+  font-size: 24px;
 }
 #aboutSwishlinks hr {
   margin-top: 0px;
