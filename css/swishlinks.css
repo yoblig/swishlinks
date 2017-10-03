@@ -152,4 +152,21 @@ p {
 footer {
   background: #0b152e;
   color: #9ca0a3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nav > li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.nav > li > a {
+  color: #9ca0a3;
+}
+.apple {
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.copyright {
+  float: right;
+  margin-right: 70px;
 }
