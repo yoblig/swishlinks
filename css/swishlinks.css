@@ -3,6 +3,11 @@ h2 {
   /*font-family: 'Gotham B';*/
   font-size: 55px;
 }
+h3 {
+  font-size:45px;
+  font-weight: normal;
+  margin-top: 100px;
+}
 .btn {
   background: #6c25fb;
   text-transform: uppercase;
@@ -26,6 +31,17 @@ h2 {
 }
 .font-light {
   font-weight: lighter;
+}
+.horizontal-rule {
+	width: 150px;
+	height: 2px;
+  margin-bottom: 15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c497fa+0,fb63b1+100 */
+  background: #c497fa; /* Old browsers */
+  background: -moz-linear-gradient(left, #c497fa 0%, #fb63b1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #c497fa 0%,#fb63b1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #c497fa 0%,#fb63b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c497fa', endColorstr='#fb63b1',GradientType=1 ); /* IE6-9 */
 }
 
 /* getStarted */
@@ -72,3 +88,9 @@ h2 {
 }
 
 /* createCollections */
+#createCollections {
+  padding-top: 50px;
+}
+#createCollections p {
+  line-height: 24px;
+}
