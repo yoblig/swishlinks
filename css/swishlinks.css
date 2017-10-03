@@ -110,3 +110,9 @@ p {
 #addStories .horizontal-rule {
   display: inline-block;
 }
+
+/* shareLink */
+#shareLink {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
