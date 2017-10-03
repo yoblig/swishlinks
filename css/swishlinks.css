@@ -8,6 +8,9 @@ h3 {
   font-weight: normal;
   margin-top: 100px;
 }
+p {
+  line-height: 24px;
+}
 .btn {
   background: #6c25fb;
   text-transform: uppercase;
@@ -90,7 +93,20 @@ h3 {
 /* createCollections */
 #createCollections {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 #createCollections p {
   line-height: 24px;
+}
+
+/* addStories */
+.lightGray {
+  background: #fafafa;
+}
+#addStories {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#addStories .horizontal-rule {
+  display: inline-block;
 }
