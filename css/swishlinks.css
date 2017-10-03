@@ -47,7 +47,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c497fa', endColorstr='#fb63b1',GradientType=1 ); /* IE6-9 */
 }
 
-/* getStarted */
+/* callToActionTop */
 #callToActionTop h2 {
   margin-top: 150px;
 }
@@ -115,4 +115,41 @@ p {
 #shareLink {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* mobile */
+.lightBlue {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c497fa+0,fb63b1+100 */
+  background: #1fb6fc; /* Old browsers */
+  background: -moz-linear-gradient(left, #1fb6fc 0%, #246efb 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1fb6fc 0%,#246efb 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1fb6fc 0%,#246efb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fb6fc', endColorstr='#246efb',GradientType=1 ); /* IE6-9 */
+
+}
+#mobile {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#mobile ul {
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+#mobile li {
+  margin: 5px 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* callToActionBottom */
+#callToActionBottom h2 {
+  margin-top: 150px;
+}
+
+/* footer */
+footer {
+  background: #0b152e;
+  color: #9ca0a3;
 }
