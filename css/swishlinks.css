@@ -12,7 +12,7 @@ p {
   line-height: 24px;
 }
 .btn {
-  background: #6c25fb;
+  background: #6C00FF;
   text-transform: uppercase;
   font-family:'Gotham Book', Arial, sans-serif;
   font-size: 12px;
@@ -21,10 +21,16 @@ p {
   padding: 25px 35px;
 }
 .btn:hover {
-  background: #934efb;
+  background: #6100E5;
+}
+.btn:active:focus {
+  background: #5100BF;
+}
+.btn:visited {
+  background: #6C00FF;
 }
 .purpleHighlight {
-  color: #6c25fb;
+  color: #6C00FF;
 }
 .font-bold {
   font-weight: bold;
@@ -40,11 +46,11 @@ p {
 	height: 2px;
   margin-bottom: 15px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c497fa+0,fb63b1+100 */
-  background: #c497fa; /* Old browsers */
-  background: -moz-linear-gradient(left, #c497fa 0%, #fb63b1 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #c497fa 0%,#fb63b1 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #c497fa 0%,#fb63b1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c497fa', endColorstr='#fb63b1',GradientType=1 ); /* IE6-9 */
+  background: #B679FC; /* Old browsers */
+  background: -moz-linear-gradient(left, #B679FC 0%, #FC369E 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #B679FC 0%,#FC369E 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #B679FC 0%,#FC369E 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B679FC', endColorstr='#FC369E',GradientType=1 ); /* IE6-9 */
 }
 
 /* callToActionTop */
@@ -159,8 +165,18 @@ footer {
   display: inline-block;
   text-transform: uppercase;
 }
+.nav > li:hover {
+  background-color: none;
+}
 .nav > li > a {
-  color: #9ca0a3;
+  color: #9CA0A3;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  color: #00DB8A;
+  background-color: transparent;
+}
+.nav > li > a:active{
+  color: #00C17A;
 }
 .apple {
   margin-left: 70px;
