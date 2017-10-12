@@ -18,6 +18,7 @@
     <!-- Custom styles for this template -->
     <link href="./css/gotham.css" rel="stylesheet">
     <link href="./css/swishlinks.css" rel="stylesheet">
+    <link href="./css/swishlinks-mobile.css" rel="stylesheet" type="text/css" media="only screen and (min-device-width : 320px) and (max-device-width : 480px)"  />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,12 +30,17 @@
   <body>
     <div id="callToActionTop" class="container" >
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <h2>The <span class="purpleHighlight">resume</span> for those who don't live on one page.</h2>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Get Started - Free No Matter What</a>
+          <a id="desktopBtn" class="btn btn-primary btn-lg" href="#" role="button">Get Started - Free No Matter What</a>
+          <div id="mobileBtn">
+              <p class="text-left">Get Started - Free No Matter What</p>
+              <a href="#"><img src="./img/appstore.svg" class="mobileApple"/></a>
+              <a href="#"><img src="./img/playstore.svg" class="mobileGoogle" /></a>
+          </div>
         </div>
-        <div class="col-md-6 col-md-offset-2">
-          <img src="./img/home-screen.png" />
+        <div class="col-md-6 col-md-offset-2 col-xs-12">
+          <img src="./img/home-screen.png" class="homescreen" />
        </div>
       </div>
     </div> <!-- /container -->
@@ -57,8 +63,8 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>WHAT DO YOU MEAN ALL WORK?</p>
-            <hr class="width-150"/>
+            <h6>What do you mean all work?</h6>
+            <hr/>
             <p class="font-light">Anything, plus your professional work, to show why you’re the unique candidate they want.</p>
           </div>
         </div>

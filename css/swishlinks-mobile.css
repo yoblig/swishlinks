@@ -1,0 +1,61 @@
+body {
+  /*color: lime;*/
+}
+h2 {
+  /*font-family: 'Gotham B';*/
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+#desktopBtn {
+  display: none;
+}
+#mobileBtn {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.mobileApple, .mobileGoogle {
+  width: 164px;
+  margin-top: 10px;
+  margin-bottom: 75px;
+}
+.mobileApple {
+  margin-right: 5px;
+}
+.mobileGoogle {
+  margin-left: 5px;
+}
+/*.homescreen {
+  position: absolute;
+  clip: rect(0px,358px,765px,0px);
+}*/
+.colbaltBlue {
+  padding-bottom: 30px;
+}
+#aboutSwishlinks {
+  padding-top: 125px;
+  text-align: left;
+}
+#aboutSwishlinks h2 {
+  font-size: 32px;
+}
+#aboutSwishlinks h6 {
+  font-size: 18px;
+  text-transform: none;
+  text-align: left;
+}
+#aboutSwishlinks hr {
+  margin-right: 180px;
+}
+#aboutSwishlinks p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+#aboutSwishlinks ul {
+  text-align: left;
+  padding-left: 0;
+  margin-top: -5px;
+}

@@ -57,6 +57,13 @@ p {
 #callToActionTop h2 {
   margin-top: 150px;
 }
+#desktopBtn {
+  display: block;
+}
+#mobileBtn {
+  display: none;
+}
+
 
 /* aboutSwishlinks */
 .colbaltBlue {
