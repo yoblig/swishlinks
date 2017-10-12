@@ -111,6 +111,9 @@ p {
 #createCollections p {
   line-height: 24px;
 }
+#createCollections img {
+  width: 500px;
+}
 
 /* addStories */
 .lightGray {

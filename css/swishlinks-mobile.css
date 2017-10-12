@@ -40,6 +40,7 @@ h2 {
 }
 #aboutSwishlinks h2 {
   font-size: 32px;
+  margin-bottom: 40px;
 }
 #aboutSwishlinks h6 {
   font-size: 18px;
@@ -58,4 +59,15 @@ h2 {
   text-align: left;
   padding-left: 0;
   margin-top: -5px;
+}
+
+#createCollections {
+  padding-bottom: 25px;
+}
+#createCollections h3 {
+  font-size: 32px;
+  margin-top: 0;
+}
+#createCollections img {
+  width: 100%;
 }
