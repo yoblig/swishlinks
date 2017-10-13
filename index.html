@@ -32,8 +32,8 @@
       <div class="row">
         <div class="col-md-4 col-xs-12">
           <h2>The <span class="purpleHighlight">resume</span> for those who don't live on one page.</h2>
-          <a id="desktopBtn" class="btn btn-primary btn-lg" href="#" role="button">Get Started - Free No Matter What</a>
-          <div id="mobileBtn">
+          <a id="desktopBtnTop" class="btn btn-primary btn-lg" href="#" role="button">Get Started - Free No Matter What</a>
+          <div id="mobileBtnTop">
               <p class="text-left">Get Started - Free No Matter What</p>
               <a href="#"><img src="./img/appstore.svg" class="mobileApple"/></a>
               <a href="#"><img src="./img/playstore.svg" class="mobileGoogle" /></a>
@@ -116,7 +116,7 @@
     </div><!-- /container -->
     <div class="lightGray">
       <div id="addStories" class="container">
-        <div class="row">
+        <div class="row desktopAddStories">
           <div class="col-md-6">
             <img src="./img/add-stories.png" width="500px" />
           </div>
@@ -124,6 +124,16 @@
             <h3>Add Stories</h3>
             <div class="horizontal-rule"></div>
             <p>Use photos, videos, text or links to showcase the individual pieces of work which live inside of a Collection. The name of the story can say what, when and where replacing bullet points on your resume &mdash; bringing portfolio work and experiences together as one.</p>
+          </div>
+        </div>
+        <div class="row mobileAddStories">
+          <div class="col-md-5 col-md-offset-1">
+            <h3>Add Stories</h3>
+            <div class="horizontal-rule"></div>
+            <p>Use photos, videos, text or links to showcase the individual pieces of work which live inside of a Collection. The name of the story can say what, when and where replacing bullet points on your resume &mdash; bringing portfolio work and experiences together as one.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/add-stories.png" width="500px" />
           </div>
         </div>
       </div><!-- /container -->
@@ -136,7 +146,7 @@
           <p>You can choose to share the link for your entire profile, or just a curated collection.</p>
         </div>
         <div class="col-md-6 col-md-offset-1 text-center">
-          <img src="./img/share.png" width="260px" />
+          <img src="./img/share.png"/>
        </div>
       </div>
     </div><!-- /container -->
@@ -144,7 +154,7 @@
       <div id="mobile" class="container">
         <div class="row">
           <div class="col-md-11 col-md-offset-1">
-            <h2>Create, Update &amp; Maintain<br/>100% by Mobile.</h2>
+            <h2>Create, Update &amp; Maintain 100% by Mobile.</h2>
             <ul>
               <li><strong>NO MORE</strong> “I have to sit down and do my site!”</li>
               <li><strong>NO MORE</strong> hours of formatting several pieces of work.</li>
@@ -160,15 +170,20 @@
       <div class="row">
         <div class="col-md-5">
           <h2>Now, show the professional world the whole, creative <span class="purpleHighlight">you.</span></h2>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Get Started - Free No Matter What</a>
+          <a id="desktopBtnBottom" class="btn btn-primary btn-lg desktopBtn" href="#" role="button">Get Started - Free No Matter What</a>
+          <div id="mobileBtnBottom">
+              <p class="text-left">Get Started - Free No Matter What</p>
+              <a href="#"><img src="./img/appstore.svg" class="mobileApple"/></a>
+              <a href="#"><img src="./img/playstore.svg" class="mobileGoogle" /></a>
+          </div>
         </div>
         <div class="col-md-6 col-md-offset-1">
-          <img src="./img/home-screen.png" />
+          <img src="./img/home-screen.png" id="homescreenImgBottom" />
        </div>
       </div>
     </div> <!-- /container -->
     <footer class="bs-docs-footer">
-      <div class="container">
+      <div id="desktopFooter" class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
           <nav class="navbar">
@@ -188,7 +203,14 @@
           <div class="col-md-8 col-md-offset-2">
             <a href="#"><img src="./img/appstore.svg" class="apple"/></a>
             <a href="#"><img src="./img/playstore.svg" class="google" /></a>
-            <p class="copyright">&copy; Swishlinks LLC 2017. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright 2017 Swishlinks LLC  - All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+      <div id="mobileFooter" class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="copyright">&copy; Copyright 2017 Swishlinks LLC  - All Rights Reserved</p>
           </div>
         </div>
       </div>

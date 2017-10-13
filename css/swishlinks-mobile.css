@@ -1,15 +1,16 @@
-body {
-  /*color: lime;*/
-}
+/* Global */
 h2 {
   /*font-family: 'Gotham B';*/
   font-size: 45px;
   margin-bottom: 30px;
 }
-#desktopBtn {
+
+/* callToActionTop */
+
+#desktopBtnTop {
   display: none;
 }
-#mobileBtn {
+#mobileBtnTop {
   display: block;
   text-align: center;
   text-transform: uppercase;
@@ -27,10 +28,8 @@ h2 {
 .mobileGoogle {
   margin-left: 5px;
 }
-/*.homescreen {
-  position: absolute;
-  clip: rect(0px,358px,765px,0px);
-}*/
+
+/* aboutSwishlinks */
 .colbaltBlue {
   padding-bottom: 30px;
 }
@@ -61,6 +60,7 @@ h2 {
   margin-top: -5px;
 }
 
+/* createCollections */
 #createCollections {
   padding-bottom: 25px;
 }
@@ -70,4 +70,92 @@ h2 {
 }
 #createCollections img {
   width: 100%;
+}
+
+/* addStories */
+#addStories {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#addStories h3 {
+  font-size: 32px;
+}
+#addStories .mobileAddStories {
+  display: block;
+}
+#addStories .desktopAddStories {
+  display: none;
+}
+#addStories img {
+  width: 100%;
+}
+#addStories h3 {
+  margin-top: 0px;
+}
+
+
+/* shareLink */
+#shareLink {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#shareLink h3 {
+  font-size: 32px;
+  margin-top: 0px;
+}
+#shareLink p {
+  padding-bottom: 20px;
+}
+#shareLink img {
+  width: 90%;
+}
+
+/* mobile */
+#mobile {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#mobile h2 {
+  font-size: 32px;
+}
+#mobile ul {
+  margin-bottom: 25px;
+}
+
+/* callToActionBottom */
+#callToActionBottom {
+  padding-top: 25px;
+}
+#callToActionBottom h2 {
+  margin-top: 20px;
+}
+#desktopBtnBottom{
+  display: none;
+}
+#mobileBtnBottom{
+  display: block;
+}
+#homescreenImgBottom {
+  display: none;
+}
+
+/* Footer */
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#desktopFooter {
+  display: none;
+}
+#mobileFooter {
+  display: block;
+}
+#mobileBtnBottom .mobileApple, #mobileBtnBottom .mobileGoogle {
+  margin-bottom: 50px;
+}
+.copyright {
+  float: none;
+  margin-right: 0;
+  font-size: 10px;
 }
